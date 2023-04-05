@@ -105,9 +105,9 @@ class Alpaca {
             url = "https://huggingface.co/Pi3141/alpaca-30B-ggml/resolve/main/ggml-model-q4_0.bin"
             await this.root.down(url, path.resolve(dir, "ggml-model-q4_0.bin"))
             break;
-
+          
           default:
-            console.log("Select either model 7B, 13B, or 30B or the different varients like lora and native!")
+            console.log("Select either model 7B, 13B, or 30B")
             break;
         }
       }
